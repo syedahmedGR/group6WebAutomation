@@ -24,6 +24,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -33,10 +34,12 @@
   <component name="ProjectId" id="1RD1nhyYq2Z2lfBlLwsk0icCaKV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -56,10 +59,17 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/Amazon/src/test/resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:\Users\nurea\SelJul2019\group6WebAutomation\group7\Amazon\src\test\resources\AmazonTestRunner.xml" type="TestNG" temporary="true">
       <module name="Amazon" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -68,7 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Amazon/src/test/resources/AmazonTestRunner.xml" />
+        <item itemvalue="TestNG.C:\Users\nurea\SelJul2019\group6WebAutomation\group7\Amazon\src\test\resources\AmazonTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>

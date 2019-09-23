@@ -12,4 +12,9 @@ public class TestHome extends CommonAPI {
         typeOnElement("#twotabsearchtextbox", "iPhone");
         clickOnElement(".nav-input");
     }
+
+    @Test
+    public void Test2(){
+        System.out.println("This this test 2");
+    }
 }

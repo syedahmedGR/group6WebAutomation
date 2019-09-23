@@ -11,5 +11,6 @@ public class TestHome extends CommonAPI {
     public void test1(){
         typeOnElement("#twotabsearchtextbox", "iPhone");
         clickOnElement(".nav-input");
+        System.out.println("testing changes through branch");
     }
 }

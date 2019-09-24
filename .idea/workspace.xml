@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2730056e-4357-4022-a81e-471c2439a7f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aetna/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aetna/src/test/java/home/TestHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/java/home/TestHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/Facebook.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/home/TestHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/src/test/java/home/TestHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouTube/YouTube.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouTube/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouTube/src/test/java/home/TestHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/home/TestHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/home/TestHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +47,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectId" id="1RD1nhyYq2Z2lfBlLwsk0icCaKV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -41,7 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Amazon/src/test" />
+      <recent name="$PROJECT_DIR$/Insurance/src/test" />
+      <recent name="$PROJECT_DIR$/YouTube/src/test" />
+      <recent name="$PROJECT_DIR$/Aetna/src/test" />
+      <recent name="$PROJECT_DIR$/CNN/src/test" />
+      <recent name="$PROJECT_DIR$/Facebook/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -56,10 +84,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/Amazon/src/test/resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
+  <component name="RunManager" selected="TestNG./Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml">
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/Aetna/src/test/resources/AetnaTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aetna" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNN" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/Facebook/src/test/resources/FacebookTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Insurance" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTube" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -69,7 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Amazon/src/test/resources/AmazonTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Aetna/src/test/resources/AetnaTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Facebook/src/test/resources/FacebookTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -91,10 +163,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

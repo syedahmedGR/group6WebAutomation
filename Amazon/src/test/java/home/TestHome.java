@@ -13,4 +13,9 @@ public class TestHome extends CommonAPI {
         clickOnElement(".nav-input");
         System.out.println("testing changes through branch");
     }
+
+    @Test
+    public void Test2(){
+        System.out.println("This this test 2");
+    }
 }

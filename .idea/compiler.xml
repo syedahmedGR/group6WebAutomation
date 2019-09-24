@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Generic" />
+        <module name="Insurance" />
         <module name="Amazon" />
+        <module name="Generic" />
+        <module name="Facebook" />
+        <module name="YouTube" />
+        <module name="CNN" />
+        <module name="Aetna" />
       </profile>
     </annotationProcessing>
   </component>

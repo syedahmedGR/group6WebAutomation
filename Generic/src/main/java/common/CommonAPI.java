@@ -36,6 +36,7 @@ public class CommonAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
+
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,

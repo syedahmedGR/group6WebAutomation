@@ -1,4 +1,4 @@
-package home;
+package homepage;
 
 import common.CommonAPI;
 import org.testng.annotations.Test;

@@ -13,7 +13,7 @@
 
     <test name = "YouTube Home">
         <classes>
-            <class name="home.TestHome"/>
+            <class name="homepage.TestHome"/>
             <!--<class name="search.SearchItems"/>-->
         </classes>
     </test>

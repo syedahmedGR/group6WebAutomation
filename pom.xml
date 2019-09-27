@@ -17,6 +17,11 @@
     <modules>
         <module>Generic</module>
         <module>Amazon</module>
+        <module>Facebook</module>
+        <module>CNN</module>
+        <module>Aetna</module>
+        <module>YouTube</module>
+        <module>Insurance</module>
     </modules>
 
     <dependencyManagement>

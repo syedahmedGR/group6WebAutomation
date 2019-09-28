@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2730056e-4357-4022-a81e-471c2439a7f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CNN/src/main/java/homepage/SnapShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/src/test/java/worldpage/TestSnapShotWorldPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/CnnDataReadFromExcel.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/CnnDataReadFromExcel1.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/screenShots.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/homepage/ReadDataFromExternalSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/homepage/ReadDataFromExternalSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/homepage/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/homepage/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/searchpage/TestSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/java/searchpage/TestSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/homepage/ReadDataFromExternalSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/classes/homepage/ReadDataFromExternalSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/homepage/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/classes/homepage/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/test-classes/CnnTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/searchpage/TestSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/test-classes/searchpage/TestSearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

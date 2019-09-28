@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="12590" started-at="2019-09-27T12:30:56 EDT" finished-at="2019-09-27T12:31:09 EDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="12590" started-at="2019-09-27T12:30:56 EDT" finished-at="2019-09-27T12:31:09 EDT">
+      <class name="home.TestHome">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@6a4f787b]" name="setUp" is-config="true" duration-ms="3436" started-at="2019-09-27T12:30:56 EDT" finished-at="2019-09-27T12:31:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:home.TestHome@6a4f787b]" name="test1" duration-ms="2123" started-at="2019-09-27T12:31:00 EDT" finished-at="2019-09-27T12:31:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestHome@6a4f787b]" name="cleanUp" is-config="true" duration-ms="144" started-at="2019-09-27T12:31:02 EDT" finished-at="2019-09-27T12:31:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.TestHome -->
+      <class name="homepage.TestHome">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homepage.TestHome@685cb137]" name="setUp" is-config="true" duration-ms="3075" started-at="2019-09-27T12:31:02 EDT" finished-at="2019-09-27T12:31:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome-options]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:homepage.TestHome@685cb137]" name="test1" duration-ms="3660" started-at="2019-09-27T12:31:05 EDT" finished-at="2019-09-27T12:31:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:homepage.TestHome@685cb137]" name="cleanUp" is-config="true" duration-ms="128" started-at="2019-09-27T12:31:09 EDT" finished-at="2019-09-27T12:31:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- homepage.TestHome -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -14,7 +14,8 @@ public class TestSearchPage extends CommonAPI {
     @Test
     public void search() throws Exception, IOException, SQLException, ClassNotFoundException {
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
-        searchPage.clickSearchIcon();
+        //searchPage.searchItemAndKeysEnter();
+        searchPage.searchItemsAndSubmitButtonFromExcelFile();
         //searchPage.searchFor("sports");    //searchItemsAndSubmitButton();
 
     }

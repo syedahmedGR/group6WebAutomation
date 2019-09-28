@@ -16,6 +16,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+// library for screenshot io
+import org.apache.commons.io.FileUtils;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -400,7 +403,7 @@ public class CommonAPI {
     //Taking Screen shots
     public void takeScreenShot() throws IOException {
         File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        //FileUtils.copyFile(file, new File("screenShots.png"));
+        FileUtils.copyFile(file, new File("../Generic/src/main/java/utility/screenShots.png"));
     }
 
     //Synchronization

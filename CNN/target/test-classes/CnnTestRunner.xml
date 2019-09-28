@@ -13,9 +13,11 @@
 
     <test name = "CNN Home">
         <classes>
-            <class name="homepage.TestHome"/>
-            <!--<class name="searchpage.TestSearchPage"/>-->
+            <!--<class name="homepage.TestHome"/>-->
+           <!-- <class name="searchpage.TestSearchPage"/>-->
+            <class name="worldpage.TestSnapShotWorldPage"></class>
         </classes>
     </test>
+
 
 </suite>

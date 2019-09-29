@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2730056e-4357-4022-a81e-471c2439a7f3" name="Default Changelist" comment="">
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/home/TestHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +45,26 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -68,6 +94,7 @@
       </list>
     </option>
   </component>
+
   <component name="RunManager" selected="TestNG./Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml">
     <configuration name="TestHome.verifyIsClickedHomePagePolitcsHeaderWebElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNN" />
@@ -87,9 +114,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  <component name="RunManager" selected="TestNG./Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml">
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/Aetna/src/test/resources/AetnaTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aetna" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNN" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/Facebook/src/test/resources/FacebookTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Insurance" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
     <configuration name="/Users/syedahmed/IdeaProjects/group7/Amazon/src/test/resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
+
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTube" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -129,16 +204,24 @@
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml" />
         <item itemvalue="TestNG.TestHome.verifyIsClickedHomePagePolitcsHeaderWebElement" />
         <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" />
         <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Aetna/src/test/resources/AetnaTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Facebook/src/test/resources/FacebookTestRunner.xml" />
+
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration/>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -155,14 +238,25 @@
       <map>
         <entry key="MAIN">
           <value>
+
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+
+            <State />
+
+            <State />
+
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+
           </value>
         </entry>
       </map>
     </option>
   </component>
+
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
@@ -177,7 +271,13 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WebAutomationGroup6$_Users_syedahmed_IdeaProjects_group7_CNN_src_test_resources_CnnTestRunner_xml.ic" NAME="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml Coverage Results" MODIFIED="1569452200804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+
 </project>

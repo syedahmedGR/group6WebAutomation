@@ -13,7 +13,11 @@
 
     <test name = "YouTube Home">
         <classes>
+<<<<<<< HEAD
             <class name="homepage.TestHome"/>
+=======
+            <class name="home.TestHome"/>
+>>>>>>> sep28
             <!--<class name="search.SearchItems"/>-->
         </classes>
     </test>

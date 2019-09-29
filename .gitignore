@@ -1,5 +1,26 @@
 # Created by .ignore support plugin (hsz.mobi)
-
 .idea/
 *.iml
 
+Amazon/target/classes/
+Amazon/target/generated-sources/
+Amazon/target/generated-test-sources/
+Amazon/target/maven-status/maven-compiler-plugin/compile/
+Amazon/target/surefire-reports/Amazon Automation Script /
+Amazon/target/surefire-reports/junitreports/TEST-amazonSignIn.AmazonSignInTest.xml
+Amazon/target/surefire-reports/old/Amazon Automation Script /
+Amazon/target/surefire-reports/testng-failed.xml
+Amazon/target/test-classes/AmazonTestRunner.xml
+Amazon/target/test-classes/SignUp/
+Amazon/target/test-classes/amazonItem/
+Amazon/target/test-classes/amazonSignIn/
+CNN/target/generated-sources/
+CNN/target/generated-test-sources/
+CNN/target/maven-status/
+CNN/target/surefire/
+Generic/src/main/resources/
+Generic/src/test/
+Generic/target/Generic-1.0-SNAPSHOT.jar
+Generic/target/generated-sources/
+Generic/target/maven-status/maven-compiler-plugin/testCompile/
+src/

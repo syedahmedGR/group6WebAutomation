@@ -1,8 +1,7 @@
 package worldpage;
 
-
-
 import common.CommonAPI;
+
 import homepage.SnapShot;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -12,7 +11,7 @@ import java.io.IOException;
 
 public class TestSnapShotWorldPage extends CommonAPI {
 
-    SnapShot snapShot;
+    public SnapShot snapShot;
 
     @Test(priority = 0)
     public void verifyIsWorldTitleDisplayed() throws Exception {

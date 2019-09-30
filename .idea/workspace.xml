@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2730056e-4357-4022-a81e-471c2439a7f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/amazonItem/itemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/amazonItem/itemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/homepage/TestHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/worldpage/TestSnapShotWorldPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/java/worldpage/TestSnapShotWorldPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/test-classes/CnnTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="test[CNN]:homepage.*" />
   </component>
   <component name="ProjectId" id="1RD1nhyYq2Z2lfBlLwsk0icCaKV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">

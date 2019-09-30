@@ -18,7 +18,7 @@
     <test name = "Facebook Home">
         <classes>
 <<<<<<< HEAD
-            <class name="homepage.TestHome"/>
+            <class name="testhome.TestHome"/>
 =======
             <class name="home.TestHome"/>
 >>>>>>> sep28

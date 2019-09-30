@@ -13,7 +13,7 @@
 
     <test name = "Aetna Home">
         <classes>
-            <class name="homepage.TestHome"/>
+            <class name="testhome.TestHome"/>
             <!--<class name="search.SearchItems"/>-->
         </classes>
     </test>

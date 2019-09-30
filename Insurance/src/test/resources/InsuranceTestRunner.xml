@@ -14,7 +14,7 @@
     <test name = "NationWide Home">
         <classes>
 <<<<<<< HEAD
-            <class name="homepage.TestHome"/>
+            <class name="testhome.TestHome"/>
 =======
             <class name="home.TestHome"/>
 >>>>>>> sep28

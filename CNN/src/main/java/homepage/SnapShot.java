@@ -1,9 +1,11 @@
 package homepage;
 
+import common.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
-public class SnapShot {
+public class SnapShot extends CommonAPI {
     @FindBy(name = "world")
     WebElement homePageWorldLinkWebElement;
 
@@ -18,6 +20,8 @@ public class SnapShot {
     }*/
 
     public boolean isWorldTitleDisplayed(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
         getHomePageWorldLinkWebElement().click();
         System.out.println(getWorldTitleWebElement().isDisplayed());
        return getWorldTitleWebElement().isDisplayed();

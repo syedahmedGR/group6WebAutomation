@@ -3,15 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="2730056e-4357-4022-a81e-471c2439a7f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/amazonItem/itemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/amazonItem/itemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/homepage/TestHome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/worldpage/TestSnapShotWorldPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/java/worldpage/TestSnapShotWorldPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/test-classes/CnnTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/homepage/TestHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/homepage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/homepage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/homepage/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/homepage/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/homepage/SnapShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/homepage/SnapShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/CnnTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/META-INF/CNN.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/META-INF/Generic.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/ExcelReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

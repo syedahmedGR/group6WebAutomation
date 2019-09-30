@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -17,16 +18,17 @@ public class SearchPage extends CommonAPI {
     WebElement searchIconWebElement;
 
     @FindBy(id = "header-search-bar")             //(how = How.XPATH, using ="//input[@class='cnn-search__input']")
-            WebElement searchInputWebElement;
+    WebElement searchInputWebElement;
 
     @FindBy(xpath = "//input[@class='cnn-search__input']")             //(how = How.XPATH, using ="//input[@class='cnn-search__input']
-            WebElement searchNewInputWebElement;
+    WebElement searchNewInputWebElement;
 
     public WebElement getSearchIconWebElement(){return searchIconWebElement;}
     public WebElement getSearchInputWebElement(){return searchInputWebElement;}
     public WebElement getSearchNewInputWebElement(){return searchNewInputWebElement;}
 
     public void searchItemAndKeysEnter() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list = ReadDataFromExternalSource.getItemValue();
         getSearchIconWebElement().click();
         getSearchInputWebElement().sendKeys(list.get(0), Keys.ENTER);
@@ -40,38 +42,9 @@ public class SearchPage extends CommonAPI {
 
     }
 
-    /*
-    public void clickSearchIcon(){ searchInputWebElement.click();}
-    public WebElement getSearchInputWebElement() { return searchInputWebElement; }
-
-    public WebElement getSubmitButtonWebElement() { return submitButtonWebElement;}
-
-    public void searchFor(String value){ getSubmitButtonWebElement().sendKeys(value);}
-    public void submitSearchButton(){ getSubmitButtonWebElement().click(); }
-    public void clearInput(){getSearchInputWebElement().clear();}
-
-    public void searchItemsAndSubmitButton()throws Exception, IOException, SQLException, ClassNotFoundException{
-        List<String> list = ReadDataFromExternalSource.getItemValue();
-        for(int i=0; i<list.size(); i++) {
-            //clickSearchIcon();
-            searchFor(list.get(i));
-            ,
-            //submitSearchButton();
-            clearInput();
-        }
-    }
-    public void searchItemsAndSubmitButton(WebDriver driver1)throws Exception, IOException, SQLException, ClassNotFoundException{
-        List<String> list = ReadDataFromExternalSource.getItemValue();
-        for(int i=0; i<list.size(); i++) {
-            searchFor(list.get(i));
-            //submitSearchButton();
-            clearInput();
-        }
-    } */
-
     public void searchItemsAndSubmitButtonFromExcelFile()throws Exception, IOException, SQLException, ClassNotFoundException  {
-        // ToDo
         //Read data from Excel file using Apache POI
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list = ReadDataFromExternalSource.getItemsListFromExcel();
         getSearchIconWebElement().click();
         getSearchInputWebElement().sendKeys(list.get(1), Keys.ENTER);
@@ -83,21 +56,5 @@ public class SearchPage extends CommonAPI {
             getSearchNewInputWebElement().clear();
         }
     }
-    /*
-    public WebElement getSearchInputField() {
-        return searchInputWebElement;
-    }
 
-    public void setSearchInputField(WebElement searchInputField) {
-        this.searchInputWebElement = searchInputField;
-    }
-
-    public void searchItems()throws Exception, IOException, SQLException, ClassNotFoundException {
-        List<String> itemList = ReadDataFromExternalSource.getItemValue();
-        for(String st: itemList) {
-            getSearchInputField().sendKeys(st, Keys.ENTER);
-            getSearchInputField().clear();
-            //validate items
-        }
-    }*/
 }

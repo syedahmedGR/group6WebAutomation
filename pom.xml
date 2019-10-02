@@ -23,6 +23,7 @@
         <module>Aetna</module>
         <module>YouTube</module>
         <module>Insurance</module>
+        <module>Walmart</module>
     </modules>
 
     <dependencyManagement>

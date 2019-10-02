@@ -12,6 +12,7 @@
         <module name="Facebook" />
         <module name="Generic" />
         <module name="CNN" />
+        <module name="Walmart" />
         <module name="Aetna" />
       </profile>
     </annotationProcessing>

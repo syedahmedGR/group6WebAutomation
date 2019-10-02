@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2730056e-4357-4022-a81e-471c2439a7f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Walmart/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/home/TestHome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/homepage/TestHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/homepage/TestHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +48,11 @@
       <recent name="homepage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Walmart/src/test" />
       <recent name="$PROJECT_DIR$/Insurance/src/test" />
       <recent name="$PROJECT_DIR$/YouTube/src/test" />
       <recent name="$PROJECT_DIR$/Aetna/src/test" />
       <recent name="$PROJECT_DIR$/CNN/src/test" />
-      <recent name="$PROJECT_DIR$/Facebook/src/test" />
     </key>
   </component>
   <component name="RunDashboard">

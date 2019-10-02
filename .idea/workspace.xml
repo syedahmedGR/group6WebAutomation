@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2730056e-4357-4022-a81e-471c2439a7f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Walmart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walmart/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,16 +69,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG./Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml">
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/Aetna/src/test/resources/AetnaTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Aetna" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/syedahmed/IdeaProjects/group7/Amazon/src/test/resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
@@ -108,16 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/Facebook/src/test/resources/FacebookTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Insurance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" />
@@ -131,6 +112,16 @@
     <configuration name="/Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Insurance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/Walmart/src/test/resources/TestWalmartRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walmart" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Walmart/src/test/resources/TestWalmartRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -161,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml" />
+        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Walmart/src/test/resources/TestWalmartRunner.xml" />
         <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" />
         <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" />
-        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Aetna/src/test/resources/AetnaTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>

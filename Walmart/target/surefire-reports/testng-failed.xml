@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="homewalmart.TestSignIn">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSignIn"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initializeWalmartTestSignIn"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- homewalmart.TestSignIn -->
+      <class name="keyword.TestWalmartSearch">
+        <methods>
+          <include name="initializeWalmartTestSearchPage"/>
+          <include name="setUp"/>
+          <include name="testWalmartSearchStaticListInput"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testWalmartSearchFromExcel"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- keyword.TestWalmartSearch -->
+      <class name="homewalmart.TestHome">
+        <methods>
+          <include name="verifyIsHomePageMenuIconDisplayed"/>
+          <include name="extentSetup"/>
+          <include name="verifyIsHomePageStoresIconDisplayed"/>
+          <include name="verifyIsHomePageGroceryIconDisplayed"/>
+          <include name="generateReport"/>
+          <include name="initializeWalmartTestHome"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyIsHomePageIconDisplayed"/>
+          <include name="afterEachTestMethod"/>
+          <include name="verifyIsHomePageGroceryPickUpDisplayed"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- homewalmart.TestHome -->
+      <class name="keyword.TestKeywordWM">
+        <methods>
+          <include name="setUp"/>
+          <include name="testKeyWord"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- keyword.TestKeywordWM -->
+      <class name="homewalmart.TestHandlingCookies">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyIsHomePageAccountDisplayed"/>
+          <include name="verifyIsSignInSuccessful"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initializeWalmartTestHome"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="verifyCreateCookiesSuccessful"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- homewalmart.TestHandlingCookies -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

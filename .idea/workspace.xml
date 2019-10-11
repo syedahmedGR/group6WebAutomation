@@ -2,13 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2730056e-4357-4022-a81e-471c2439a7f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/utility/Features.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/utility/Search Channel.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/utility/Search Topic.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/utility/test.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/SearchPage/TestSearchPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/SidebarMenu/TestSidebarMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/SignIn/TestSignIn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/SignUp/TestSignUp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/Video/TestVideo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/appButton/TestAppButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/home/TestHomePage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/keyWordDriven/TestKeyWord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/main/AppButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/main/HomePage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/main/KeyWord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/main/SearchPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/main/SidebarMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/main/Signing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/main/Video.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/main/runMyExcel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/utility/DataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/utility/DatabaseReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/utility/ExcelReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YouTube/src/test/java/utility/MyExcelExample.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNN/CNN.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/YouTube/YouTube.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/YouTube/src/test/java/home/TestHome.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aetna/pom.xml" afterPath="$PROJECT_DIR$/Aetna/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" afterPath="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/pom.xml" afterPath="$PROJECT_DIR$/Amazon/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/pom.xml" afterPath="$PROJECT_DIR$/CNN/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" afterPath="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/pom.xml" afterPath="$PROJECT_DIR$/Facebook/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/pom.xml" afterPath="$PROJECT_DIR$/Generic/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Insurance/pom.xml" afterPath="$PROJECT_DIR$/Insurance/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" afterPath="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YouTube/pom.xml" afterPath="$PROJECT_DIR$/YouTube/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" afterPath="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
+    <ignored path="$PROJECT_DIR$/Aetna/target/" />
+    <ignored path="$PROJECT_DIR$/Facebook/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/CNN/target/" />
+    <ignored path="$PROJECT_DIR$/Insurance/target/" />
+    <ignored path="$PROJECT_DIR$/YouTube/target/" />
+    <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/Amazon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="YouTubeTestRunner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyWord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/KeyWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2346">
+              <caret line="143" column="31" lean-forward="false" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestHomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/home/TestHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSearchPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/SearchPage/TestSearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,8 +142,118 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>up</find>
+      <find>Movies_bestOfYouTube</find>
+      <find>notsignin</find>
+      <find>ispop</find>
+      <find>by.</find>
+      <find>helpInput</find>
+      <find>signout</find>
+      <find>youtube</find>
+      <find>clickOpenClose_sideBar</find>
+      <find>goto_Trending</find>
+      <find>clickMusic_OnTrending</find>
+      <find>goto_Subscription</find>
+      <find>clickSubscription_signIn</find>
+      <find>verifySubscriptionPage_notSignIn</find>
+      <find>goto_Library</find>
+      <find>clickLibrary_signIn</find>
+      <find>verifyLibraryPage_notSignIn</find>
+      <find>goto_History</find>
+      <find>clickHistory_signIn</find>
+      <find>verifyHistoryUrl_NotSignIn</find>
+      <find>clickOption_searchHistory</find>
+      <find>verifyPage_searchHistory</find>
+      <find>clickOption_historyComments</find>
+      <find>verifyPage_historyComments</find>
+      <find>_historyCommunity</find>
+      <find>_history</find>
+      <find>_underSection_bestOfYouTube</find>
+      <find>clickAboutLink_</find>
+      <find>getSignInLabel</find>
+      <find>TestLogger</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>isInvalidSignInDisplayed</replace>
+      <replace>clickOpenCloseSideBar</replace>
+      <replace>gotoTrending</replace>
+      <replace>clickMusicUnderTrending</replace>
+      <replace>gotoSubscription</replace>
+      <replace>clickSubscriptionSignIn</replace>
+      <replace>gotoLibrary</replace>
+      <replace>gotoHistory</replace>
+      <replace>verifyPageSearchHistory</replace>
+      <replace>clickOptionHistoryComments</replace>
+      <replace>verifyPageHistoryComments</replace>
+      <replace>HistoryCommunity</replace>
+      <replace>History</replace>
+      <replace>UnderSectionBestOfYouTube</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
+        <option value="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
+        <option value="$PROJECT_DIR$/Aetna/pom.xml" />
+        <option value="$PROJECT_DIR$/CNN/pom.xml" />
+        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
+        <option value="$PROJECT_DIR$/Insurance/pom.xml" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/home/TestSignIn.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/helpingHand/Signing.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/helpingHand/SidebarMenu.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/helpingHand/HomePage.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/helpingHand/AppButton.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/home/TestHome.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/readAndWrite_excelSheet/MyExcel.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/main/runMyExcel.java" />
+        <option value="$PROJECT_DIR$/YouTube/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/utility/MyExcelExample.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/utility/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/main/HomePage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/SignUp/TestSignUp.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/database/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/utility/DatabaseReader.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/keyWordDriven/keyWordSearch.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/utility/DataSource.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/SearchPage/TestSearchPage.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/main/SearchPage.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/SignIn/TestSignIn.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/main/AppButton.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/appButton/TestAppButton.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/keyWordDriven/TestKeyWord.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/main/SidebarMenu.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/SidebarMenu/TestSidebarMenu.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/main/Signing.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/main/Video.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/Video/TestVideo.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/main/KeyWord.java" />
+        <option value="$PROJECT_DIR$/YouTube/src/test/java/home/TestHomePage.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -27,9 +262,206 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Web-Automation-Group6" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Web-Automation-Group6" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="8" />
+    <option name="y" value="23" />
+    <option name="width" value="1432" />
+    <option name="height" value="815" />
+  </component>
   <component name="ProjectId" id="1RD1nhyYq2Z2lfBlLwsk0icCaKV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="appButton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="keyWordDriven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SidebarMenu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SignIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group6WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="YouTube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Video" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -41,9 +473,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebSelenium2019\group6WebAutomation\YouTube\src\test\java\utility" />
+      <recent name="C:\WebSelenium2019\group6WebAutomation\YouTube\src\test\java\SearchPage" />
+      <recent name="C:\WebSelenium2019\group6WebAutomation\YouTube\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utility" />
+      <recent name="appButton" />
+      <recent name="SidebarMenu" />
+      <recent name="SignIn" />
+      <recent name="home" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Insurance/src/test" />
       <recent name="$PROJECT_DIR$/YouTube/src/test" />
@@ -64,66 +509,168 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml">
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/Aetna/src/test/resources/AetnaTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Aetna" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Aetna/src/test/resources/AetnaTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CNN" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/Facebook/src/test/resources/FacebookTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Insurance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml">
+    <configuration name="TestHomePage.homePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="YouTube" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.TestHomePage" />
+      <option name="METHOD_NAME" value="homePage" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
+    <configuration name="TestHomePage.verifyIsSearchBoxDisplayed" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="YouTube" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.TestHomePage" />
+      <option name="METHOD_NAME" value="verifyIsSearchBoxDisplayed" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestHome.homePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="YouTube" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.TestHome" />
+      <option name="METHOD_NAME" value="homePage" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="YouTube" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="runMyExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.runMyExcel" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="YouTube" />
+      <envs />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestHome.homePage" />
+      <item index="2" class="java.lang.String" itemvalue="Application.runMyExcel" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestHomePage.homePage" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestHomePage.verifyIsSearchBoxDisplayed" />
+    </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Insurance/src/test/resources/InsuranceTestRunner.xml" />
-        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" />
-        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Aetna/src/test/resources/AetnaTestRunner.xml" />
-        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/CNN/src/test/resources/CnnTestRunner.xml" />
-        <item itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/Facebook/src/test/resources/FacebookTestRunner.xml" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestHomePage.verifyIsSearchBoxDisplayed" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestHomePage.homePage" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestHome.homePage" />
+        <item index="4" class="java.lang.String" itemvalue="Application.runMyExcel" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -138,12 +685,81 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 20h 53m 28s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 20h 55m 00s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 20h 56m 38s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 21h 05m 01s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 21h 09m 51s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 21h 13m 11s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 21h 15m 50s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 21h 21m 03s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 21h 31m 13s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_syedahmed_IdeaProjects_group7_YouTube_src_test_resources_YouTubeTestRunner_xml - 2019.10.09 at 23h 57m 03s.xml">
+      <configuration name="/Users/syedahmed/IdeaProjects/group7/YouTube/src/test/resources/YouTubeTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3963816" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0016447369" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41118422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.090460524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -151,7 +767,353 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/src/test/java/home/TestHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/src/test/resources/CnnTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="28" column="61" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/home/TestHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="29" column="66" lean-forward="false" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Insurance/src/test/java/home/TestHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Insurance/src/test/resources/InsuranceTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Insurance/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="29" column="67" lean-forward="false" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/home/TestSignIn.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="137" column="16" lean-forward="false" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/home/TestHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-Automation-Group6.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ExcelReader.java" />
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/runMyExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverCommandExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/DataSource.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="49" column="52" lean-forward="true" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/PageFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/SignUp/TestSignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/database/ConnectToSqlDB.java" />
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/utility/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/utility/DatabaseReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/keyWordDriven/keyWordSearch.java" />
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/utility/MyExcelExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/utility/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/AppButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="87" column="33" lean-forward="true" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/appButton/TestAppButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/keyWordDriven/TestKeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/SidebarMenu/TestSidebarMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="400" column="22" lean-forward="false" selection-start-line="400" selection-start-column="22" selection-end-line="400" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/SidebarMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="1157" column="18" lean-forward="false" selection-start-line="1157" selection-start-column="8" selection-end-line="1157" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/SignIn/TestSignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/Signing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="402" column="0" lean-forward="true" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/Video/TestVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/resources/YouTubeTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/KeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="143" column="31" lean-forward="false" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="67" column="68" lean-forward="false" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/home/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/main/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YouTube/src/test/java/SearchPage/TestSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

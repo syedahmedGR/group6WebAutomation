@@ -1,0 +1,7 @@
+[1005/112415.827:ERROR:file_io_win.cc(161)] CreateFile C:\Users\ASIFRO~1\AppData\Local\Temp\scoped_dir7596_20543\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1005/112415.829:ERROR:file_io_win.cc(170)] CreateFile C:\Users\ASIFRO~1\AppData\Local\Temp\scoped_dir7596_20543\Crashpad\reports\a5ba1f87-c4a1-4c20-890b-5ad1cdde1583.dmp: The system cannot find the path specified. (0x3)
+[1005/112415.829:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1009/222355.488:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1009/222355.495:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1009/222355.495:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1009/222355.495:ERROR:exception_snapshot_win.cc(98)] thread ID 15352 not found in process

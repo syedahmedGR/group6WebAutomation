@@ -6,14 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Insurance" />
-        <module name="Amazon" />
-        <module name="Generic" />
-        <module name="Facebook" />
-        <module name="YouTube" />
-        <module name="CNN" />
         <module name="Aetna" />
+        <module name="Amazon" />
+        <module name="CNN" />
+        <module name="Facebook" />
+        <module name="Generic" />
+        <module name="Insurance" />
+        <module name="YouTube" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Aetna" target="1.5" />
+      <module name="Amazon" target="1.5" />
+      <module name="CNN" target="1.5" />
+      <module name="Facebook" target="1.5" />
+      <module name="Generic" target="1.5" />
+      <module name="Insurance" target="1.5" />
+      <module name="Web-Automation-Group6" target="1.5" />
+      <module name="YouTube" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Automation Script ]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="Mojave"/>
+  <parameter name="browserVersion" value="77.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.amazon.com"/>
+  <test thread-count="5" name="Amazon Home(failed)" verbose="0">
+    <classes>
+      <class name="KeywordTest.keywordTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="testKeyWord"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- KeywordTest.keywordTest1 -->
+      <class name="amazonItem.HomePageTest">
+        <methods>
+          <include name="extentSetup"/>
+          <include name="signInForGiftCard"/>
+          <include name="verifySearchItem"/>
+          <include name="generateReport"/>
+          <include name="initialize"/>
+          <include name="setUp"/>
+          <include name="afterEachTestMethod"/>
+          <include name="verifyCreateAccount"/>
+          <include name="selectLocation"/>
+          <include name="VerifyToBuyCream"/>
+          <include name="verifyBuyBabyDiaper"/>
+          <include name="verifyGameAdd"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- amazonItem.HomePageTest -->
+      <class name="amazonItem.TestAmazonSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testSearch"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- amazonItem.TestAmazonSearch -->
+      <class name="dropdown.TestDropDown">
+        <methods>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="dropDownData"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- dropdown.TestDropDown -->
+      <class name="home.TestHome">
+        <methods>
+          <include name="PrimeVerify"/>
+          <include name="sellButton"/>
+          <include name="wifiCheck"/>
+          <include name="wholeFoods"/>
+          <include name="VerifySellPrivateBrand"/>
+          <include name="verifyCurrencyConvertButton"/>
+          <include name="PrimeButtonCheck"/>
+          <include name="extentSetup"/>
+          <include name="writeOnSearchBox"/>
+          <include name="verifyAmazonStoreCCard"/>
+          <include name="verifyMusicButton"/>
+          <include name="locationCheck"/>
+          <include name="generateReport"/>
+          <include name="contentAndDeviceVerify"/>
+          <include name="verifySellAppsAmazon"/>
+          <include name="eastDAneButtonVerify"/>
+          <include name="verifyPrimeVideo"/>
+          <include name="helpTab"/>
+          <include name="helpPeopleButtonVerify"/>
+          <include name="orderButtonCheck"/>
+          <include name="rapidsCheck"/>
+          <include name="verifyVisaSignatureCards"/>
+          <include name="searchItemVerify"/>
+          <include name="verifyShippingRates"/>
+          <include name="startExtent"/>
+          <include name="checkDealsOfTheDay"/>
+          <include name="verifyFlag"/>
+          <include name="verifyReloadBlance"/>
+          <include name="checkPrivacyNotice"/>
+          <include name="eButton"/>
+          <include name="verifyInterestBasedAds"/>
+          <include name="registryPage"/>
+          <include name="allItemsVerify"/>
+          <include name="verifyBusiness"/>
+          <include name="verifyCountry"/>
+          <include name="returnsButtonVerify"/>
+          <include name="setUp"/>
+          <include name="verifyAdvertisementProducts"/>
+          <include name="verifySellOnHandMadeProduct"/>
+          <include name="verifyPayment"/>
+          <include name="verifySecondChance"/>
+          <include name="afterEachTestMethod"/>
+          <include name="VerifyCartTest"/>
+          <include name="pointsCardVerify"/>
+          <include name="myAmazonLogoVerify"/>
+          <include name="AssistantButtonVerify"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- home.TestHome -->
+      <class name="title.TestTitle">
+        <methods>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="test1"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- title.TestTitle -->
+      <class name="amazonItem.itemTest">
+        <methods>
+          <include name="careersTest"/>
+          <include name="selfServiceVerify"/>
+          <include name="privateBrandsVerify"/>
+          <include name="extentSetup"/>
+          <include name="captureImage"/>
+          <include name="makeMoney"/>
+          <include name="investorTest"/>
+          <include name="amazonToursInstruction"/>
+          <include name="blogTest"/>
+          <include name="generateReport"/>
+          <include name="verifySeeMore"/>
+          <include name="clickSearch"/>
+          <include name="setUp"/>
+          <include name="itemList"/>
+          <include name="afterEachTestMethod"/>
+          <include name="aboutAmazon"/>
+          <include name="pressCenter"/>
+          <include name="cleanUp"/>
+          <include name="devicesButtonTest"/>
+          <include name="verifyScreen"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- amazonItem.itemTest -->
+      <class name="amazonSignIn.SignInExcelDataAmazon">
+        <methods>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="excelWork"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- amazonSignIn.SignInExcelDataAmazon -->
+      <class name="helloAccount.TestHomePage">
+        <methods>
+          <include name="allDepartments"/>
+          <include name="verifyBabyProduct"/>
+          <include name="extentSetup"/>
+          <include name="verifyPrimeMember"/>
+          <include name="generateReport"/>
+          <include name="verifyAddCart"/>
+          <include name="setUp"/>
+          <include name="verifyCreateAccount"/>
+          <include name="afterEachTestMethod"/>
+          <include name="verifyLocation"/>
+          <include name="verifyBuyCreamAndOintments"/>
+          <include name="verifySearchItem"/>
+          <include name="verifyGiftCard"/>
+          <include name="cleanUp"/>
+          <include name="initialize"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- helloAccount.TestHomePage -->
+    </classes>
+  </test> <!-- Amazon Home(failed) -->
+</suite> <!-- Failed suite [Amazon Automation Script ] -->

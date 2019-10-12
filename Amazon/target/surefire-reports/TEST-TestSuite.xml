@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="50.054" tests="402" errors="0" skipped="392" failures="10">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/target/test-classes:/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/target/classes:/Users/alamgir/.m2/repository/Web-Automation-Group6/Generic/1.0-SNAPSHOT/Generic-1.0-SNAPSHOT.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/alamgir/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/alamgir/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/alamgir/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/alamgir/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/alamgir/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/alamgir/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/alamgir/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/alamgir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/alamgir/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/alamgir/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/alamgir/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/alamgir/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/alamgir/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/alamgir/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/alamgir/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/alamgir/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/alamgir/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/alamgir/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/alamgir/.m2/repository/com/aventstack/extentreports/3.0.7/extentreports-3.0.7.jar:/Users/alamgir/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/alamgir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/alamgir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/alamgir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alamgir/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/alamgir/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/alamgir/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/alamgir/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/alamgir/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/alamgir/.m2/repository/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar:/Users/alamgir/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/alamgir/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar:/Users/alamgir/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/alamgir/.m2/repository/org/mongodb/mongodb-driver/3.4.0/mongodb-driver-3.4.0.jar:/Users/alamgir/.m2/repository/org/mongodb/mongodb-driver-core/3.4.0/mongodb-driver-core-3.4.0.jar:/Users/alamgir/.m2/repository/org/mongodb/bson/3.4.0/bson-3.4.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/target/surefire/surefirebooter6069269390415978300.jar /Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/target/surefire 2019-10-12T09-07-44_846-jvmRun1 surefire5845420295366607199tmp surefire_04271054472376530525tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/target/test-classes:/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/target/classes:/Users/alamgir/.m2/repository/Web-Automation-Group6/Generic/1.0-SNAPSHOT/Generic-1.0-SNAPSHOT.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/alamgir/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/alamgir/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/alamgir/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/alamgir/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/alamgir/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/alamgir/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/alamgir/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/alamgir/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/alamgir/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/alamgir/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/alamgir/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/alamgir/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/alamgir/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/alamgir/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/alamgir/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/alamgir/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/alamgir/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/alamgir/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/alamgir/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/alamgir/.m2/repository/com/aventstack/extentreports/3.0.7/extentreports-3.0.7.jar:/Users/alamgir/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/alamgir/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/alamgir/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/alamgir/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alamgir/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/alamgir/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/alamgir/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/alamgir/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/alamgir/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/alamgir/.m2/repository/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar:/Users/alamgir/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/alamgir/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar:/Users/alamgir/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/alamgir/.m2/repository/org/mongodb/mongodb-driver/3.4.0/mongodb-driver-3.4.0.jar:/Users/alamgir/.m2/repository/org/mongodb/mongodb-driver-core/3.4.0/mongodb-driver-core-3.4.0.jar:/Users/alamgir/.m2/repository/org/mongodb/bson/3.4.0/bson-3.4.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/alamgir"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="idea.version2019.2.2" value="true"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/target/surefire/surefirebooter6069269390415978300.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="alamgir"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/alamgir/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/3_/53j1qjwn78s5q8ggblt28px80000gn/T/"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/alamgir/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="17.671">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (chrome not reachable)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.49 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-out><![CDATA[Extent Report Directory/Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/target/surefire-reports/html
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2019 9:07:48 AM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file /Users/alamgir/Documents/Automationclone/group6WebAutomation/Amazon/report-config.xml was not found.
+Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 18706
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aboutAmazon" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.itemTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="amazonToursInstruction" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="blogTest" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="captureImage" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="careersTest" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="clickSearch" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="devicesButtonTest" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="investorTest" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="itemList" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="makeMoney" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="pressCenter" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="privateBrandsVerify" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="selfServiceVerify" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyScreen" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifySeeMore" classname="amazonItem.itemTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 14.49 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="4.289">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (chrome not reachable)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.16 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 46554
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="allDepartments" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="helloAccount.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyAddCart" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyBabyProduct" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyBuyCreamAndOintments" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyCreateAccount" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyGiftCard" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyLocation" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyPrimeMember" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifySearchItem" classname="helloAccount.TestHomePage" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.16 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.TestAmazonSearch" time="4.253">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.14 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (chrome not reachable)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.14 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 19404
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.TestAmazonSearch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSearch" classname="amazonItem.TestAmazonSearch" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.14 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.TestAmazonSearch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.TestAmazonSearch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="dropdown.TestDropDown" time="7.206">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 7.09 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (chrome not reachable)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.09 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 10262
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="startExtent" classname="dropdown.TestDropDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="dropDownData" classname="dropdown.TestDropDown" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 7.09 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="dropdown.TestDropDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="dropdown.TestDropDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="title.TestTitle" time="3.597">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.48 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (chrome not reachable)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.48 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 9345
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="startExtent" classname="title.TestTitle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test1" classname="title.TestTitle" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.48 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="title.TestTitle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="title.TestTitle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="5.048">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (chrome not reachable)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.93 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 40750
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="AssistantButtonVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="home.TestHome" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="PrimeButtonCheck" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="PrimeVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="VerifyCartTest" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="VerifySellPrivateBrand" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="allItemsVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="checkDealsOfTheDay" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="checkPrivacyNotice" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="contentAndDeviceVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="eButton" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="eastDAneButtonVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="helpPeopleButtonVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="helpTab" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="locationCheck" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="myAmazonLogoVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="orderButtonCheck" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="pointsCardVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="rapidsCheck" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="registryPage" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="returnsButtonVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="searchItemVerify" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="sellButton" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyAdvertisementProducts" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyAmazonStoreCCard" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyBusiness" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyCountry" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyCurrencyConvertButton" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyFlag" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyInterestBasedAds" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyMusicButton" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyPayment" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyPrimeVideo" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyReloadBlance" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifySecondChance" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifySellAppsAmazon" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifySellOnHandMadeProduct" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyShippingRates" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyVisaSignatureCards" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="wholeFoods" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="wifiCheck" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="writeOnSearchBox" classname="home.TestHome" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (chrome not reachable)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.93 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.HomePageTest" time="3.379">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.26 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 4414
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initialize" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyToBuyCream" classname="amazonItem.HomePageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonItem.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="selectLocation" classname="amazonItem.HomePageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="signInForGiftCard" classname="amazonItem.HomePageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyBuyBabyDiaper" classname="amazonItem.HomePageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyCreateAccount" classname="amazonItem.HomePageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifyGameAdd" classname="amazonItem.HomePageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="verifySearchItem" classname="amazonItem.HomePageTest" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="setUp" classname="amazonSignIn.SignInExcelDataAmazon" time="1.433">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.30 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.30 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 24069
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="startExtent" classname="amazonSignIn.SignInExcelDataAmazon" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="excelWork" classname="amazonSignIn.SignInExcelDataAmazon" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.30 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="amazonSignIn.SignInExcelDataAmazon" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="amazonSignIn.SignInExcelDataAmazon" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="KeywordTest.keywordTest1" time="1.471">
+    <failure message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.35 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.35 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mds-MacBook-Air.local', ip: 'fe80:0:0:0:49c:9f7c:9a:4be8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.2'
+Driver info: driver.version: ChromeDriver
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 10626
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="startExtent" classname="KeywordTest.keywordTest1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testKeyWord" classname="KeywordTest.keywordTest1" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.35 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:49c:9f7c:9a:4be8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: ChromeDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="KeywordTest.keywordTest1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="cleanUp" classname="KeywordTest.keywordTest1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="generateReport" classname="amazonItem.itemTest" time="0.593">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+</testsuite>

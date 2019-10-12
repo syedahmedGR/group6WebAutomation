@@ -10,17 +10,37 @@ import page.objects.HomePage;
 public class TestHome extends CommonAPI {
 
      HomePage homePage;  //import HomePage
-
     // this.driver.navigate().to(this homepageurl)
     @Test
     public void initialize(){
         homePage = PageFactory.initElements(driver,HomePage.class);
     }
-
     @Test
     public void verifyGetHomePageTitle(){
-        String title = homePage.getHomePageTitle();
+        String title = homePage.getFBTitle();
         Assert.assertEquals(title,"Facebook - Log In or Sign Up");
+    }
+    @Test(priority = 1)
+    public void verifyIsFBHomePageEmailDisplayed() throws Exception {
+        this.homePage = PageFactory.initElements(this.driver, HomePage.class);
+        Assert.assertTrue( homePage.isFBHomePageEmailDisplayed());
+    }
+
+    @Test(priority = 2)
+    public void verifyIsFBHomePagePasswordDisplayed() throws Exception {
+        this.homePage = PageFactory.initElements(this.driver, HomePage.class);
+        Assert.assertTrue( homePage.isFBHomePagePasswordDisplayed());
+    }
+
+    @Test(priority = 3)
+    public void verifyIsFBHomePageForgotAccountDisplayed() throws Exception {
+        this.homePage = PageFactory.initElements(this.driver, HomePage.class);
+        Assert.assertTrue( homePage.isFBHomePageForgotAccountDisplayed());
+    }
+    @Test(priority = 4)
+    public void verifyIsFBHomePageSignUPDisplayed() throws Exception {
+        this.homePage = PageFactory.initElements(this.driver, HomePage.class);
+        Assert.assertTrue( homePage.isFBHomePageSignUpDisplayed());
     }
 
     @Test
@@ -28,34 +48,17 @@ public class TestHome extends CommonAPI {
         clickOnElement("email");
         typeOnElement("#email", "user123@gmail.com");
     }
-
     @Test
     public void handleDropDown()throws InterruptedException{
-        typeOnElement("month","Sep");
-        //driver.findElement(By.id("month")).sendKeys("Sep");
+        //typeOnElement("Month","May");
+        driver.findElement(By.id("month")).sendKeys("Sep");
         Thread.sleep(3000);
-        typeOnElement("day","28");
-        //driver.findElement((By.id("day"))).sendKeys("28");
+        //typeOnElement("Day","5");
+        driver.findElement((By.id("day"))).sendKeys("28");
         Thread.sleep(3000);
-        typeOnElement("year","2019");
-        //driver.findElement(By.id("year")).sendKeys("2019");
+        //typeOnElement("Year","1948");
+        driver.findElement(By.id("year")).sendKeys("2019");
     }
-
-    @Test
-    public void testSignUpPage()throws InterruptedException{
-        typeOnElement("#u_0_n","kajol");
-        //driver.findElement(By.cssSelector("#u_0_n")).sendKeys("kajol");
-        typeOnElement("u_0_p","kabir");
-        // driver.findElement(By.id("u_0_p")).sendKeys("kabir");
-        typeOnElement(" #u_0_s","9293286861");
-        //driver.findElement(By.cssSelector(" #u_0_s")).sendKeys("9293286861");
-        typeOnElement("#u_0_z","12345678");
-        //driver.findElement(By.cssSelector(" #u_0_z")).sendKeys("12345678");
-        clickOnElement("#u_0_7");
-        //driver.findElement(By.cssSelector( " #u_0_7")).click();
-        clickOnElement("#u_0_16");
-    }
-
     @Test
     public void testSignUpLink(){
         clickOnElement("//*[@id=\"js_0\"]/ul/li[1]/a");

@@ -2,43 +2,49 @@ package page.objects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
+
+import static common.CommonAPI.convertToString;
 
 public class SignUpPage {
 
-    @FindBy(id = "u_0_n")
+    @FindBy(name = "firstname")
     WebElement firstNameTextField;
 
-    @FindBy(id = "u_0_p")
+    @FindBy(name = "lastname")
     WebElement lastNameTextField;
 
-    @FindBy(id = "u_0_s")
+    @FindBy(name = "reg_email__")
     WebElement mobileNumOrEmailTextField;
 
-    @FindBy(id = "u_0_z")
+    @FindBy(name = "reg_passwd__")
     WebElement newPassTextField;
 
     @FindBy(id = "month")
     WebElement birthDayMonthTextField;
 
-    @FindBy(id = "id=\"day\"")
+    @FindBy(id = "day")
     WebElement birthDayDayTextField;
 
-    @FindBy(id = "id=\"year\"")
+    @FindBy(id = "year")
     WebElement birthDayYearTextField;
 
-    @FindBy(id = "u_0_6")
-    WebElement clickOnFemaleRadipButton;
-
-    @FindBy(id = "id=\"u_0_7\"")
+    @FindBy(name = "sex")
     WebElement clickOnMaleRadioButton;
 
-    @FindBy(id = "u_0_8")
-    WebElement clickOnCustomRadioButton;
-
-    @FindBy(name = "websubmit")
+    @FindBy(linkText = "Sign Up")
     WebElement clickOnSignUpButton;
 
-    public void signUpPage(){
-
+    public void signUp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        this.firstNameTextField.sendKeys("David");
+        this.lastNameTextField.sendKeys("senders");
+        this.mobileNumOrEmailTextField.sendKeys("9294946038");
+        this.newPassTextField.sendKeys("pntAstoria19");
+        this.birthDayMonthTextField.sendKeys("May");
+        this.birthDayDayTextField.sendKeys("5");
+        this.birthDayYearTextField.sendKeys("1948");
+        this.clickOnMaleRadioButton.click();
+        this.clickOnSignUpButton.click();
     }
 }

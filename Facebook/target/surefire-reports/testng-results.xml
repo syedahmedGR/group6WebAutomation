@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Framework\group6WebAutomation\Facebook\target\surefire-reports\html]]>
+    </line>
+    <line>
+      <![CDATA[SignUpPage: ]]>
+    </line>
+  </reporter-output>
+  <suite name="Facebook Automation Script " duration-ms="33821" started-at="2019-10-11T16:56:19 EDT" finished-at="2019-10-11T16:56:53 EDT">
+    <groups>
+    </groups>
+    <test name="Facebook Home" duration-ms="33821" started-at="2019-10-11T16:56:19 EDT" finished-at="2019-10-11T16:56:53 EDT">
+      <class name="home.TestSignUp">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:home.TestSignUp@31a5c39e]" name="extentSetup" is-config="true" duration-ms="263" started-at="2019-10-11T16:56:18 EDT" finished-at="2019-10-11T16:56:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44b3606b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Framework\group6WebAutomation\Facebook\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestSignUp@31a5c39e]" name="setUp" is-config="true" duration-ms="23293" started-at="2019-10-11T16:56:19 EDT" finished-at="2019-10-11T16:56:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:home.TestSignUp@31a5c39e]" name="startExtent" is-config="true" duration-ms="10" started-at="2019-10-11T16:56:42 EDT" finished-at="2019-10-11T16:56:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.TestSignUp.testSignUp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testSignUp()[pri:0, instance:home.TestSignUp@31a5c39e]" name="testSignUp" duration-ms="8588" started-at="2019-10-11T16:56:42 EDT" finished-at="2019-10-11T16:56:51 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[SignUpPage: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:home.TestSignUp@31a5c39e]" name="afterEachTestMethod" is-config="true" duration-ms="1859" started-at="2019-10-11T16:56:51 EDT" finished-at="2019-10-11T16:56:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignUp status=SUCCESS method=TestSignUp.testSignUp()[pri:0, instance:home.TestSignUp@31a5c39e] output=SignUpPage: ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestSignUp@31a5c39e]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-10-11T16:56:53 EDT" finished-at="2019-10-11T16:56:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:home.TestSignUp@31a5c39e]" name="generateReport" is-config="true" duration-ms="132" started-at="2019-10-11T16:56:53 EDT" finished-at="2019-10-11T16:56:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- home.TestSignUp -->
+    </test> <!-- Facebook Home -->
+  </suite> <!-- Facebook Automation Script  -->
+</testng-results>

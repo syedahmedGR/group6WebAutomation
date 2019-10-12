@@ -1,1 +1,6 @@
+reporting\TestLogger.class
+utility\DataReader.class
+reporting\ExtentManager.class
 common\CommonAPI.class
+reporting\ExtentTestManager.class
+reporting\ApplicationLog.class

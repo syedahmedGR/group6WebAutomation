@@ -1,3 +1,3 @@
-signup\SignUpForCustomer.class
+home\TestLogIn.class
+home\TestSignUp.class
 home\TestHome.class
-login\LoginCustomer.class

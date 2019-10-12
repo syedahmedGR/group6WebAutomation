@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Costco Automation Script ]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="Windows"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.costco.com"/>
+  <test thread-count="5" verbose="0" name="Costco Home(failed)">
+    <classes>
+      <class name="home.TestMouseHover">
+        <methods>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="testChange"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- home.TestMouseHover -->
+    </classes>
+  </test> <!-- Costco Home(failed) -->
+</suite> <!-- Failed suite [Costco Automation Script ] -->

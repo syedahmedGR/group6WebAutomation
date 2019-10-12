@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CNN Automation Script " duration-ms="24" started-at="2019-10-11T16:56:55 EDT" finished-at="2019-10-11T16:56:55 EDT">
+    <groups>
+    </groups>
+    <test name="CNN Home" duration-ms="24" started-at="2019-10-11T16:56:55 EDT" finished-at="2019-10-11T16:56:55 EDT">
+    </test> <!-- CNN Home -->
+  </suite> <!-- CNN Automation Script  -->
+</testng-results>
